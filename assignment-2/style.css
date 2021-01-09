@@ -1,0 +1,20 @@
+/*
+Font-Family: 'Raleway', Sans-Serif;
+Font-Size: 44px;
+Font-Family: 'Open Sans', Sans-Serif;
+Font-Size: 15px;
+*/
+
+
+* {
+    box-sizing:border-box;
+}
+
+
+
+
+
+main {
+    width: 80%;
+    margin: auto;
+}

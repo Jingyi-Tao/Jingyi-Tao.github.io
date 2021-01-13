@@ -1,0 +1,99 @@
+/*
+font-family: 'Raleway', Sans-Serif;
+font-size: 44px;
+font-family: 'Open Sans', Sans-Serif;
+font-size: 15px;
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', Sans-Serif;
+	font-size: 20px;
+	color: #666;
+	margin: 0px;
+}
+
+header {
+	background-image: url(../3/images/MartinLutherKing_HistoryNet.jpg);
+	background-size: cover;
+	width: 100vw;
+}
+
+header.grid-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1, h2 {
+	font-family: 'Raleway', Sans-Serif;
+	color:white;
+}
+
+h1 {
+	font-size: 100px;
+	margin-top: 10px;
+	margin-left: 50px;
+	writing-mode:horizontal-tb;
+	text-orientation: mixed;
+	padding: 20px 10px;
+}
+
+h2 {
+	font-size: 60px;
+	margin-top: 450px;
+	margin-right: 80px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+p {
+	line-height: 32px;
+}
+
+em { 
+	font-weight: bolder; 
+}
+
+main {
+	width: 80%;
+	margin: 60px auto;
+}
+
+blockquote {
+	font-style:italic;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+blockquote::after {
+  content: "”";
+}
+
+blockquote::before {
+  content: "“";
+}
+
+blockquote em { font-weight: bold; color: #ff5757; font-size: 50px; }
+
+.grid-main {
+	display: flex;
+}
+
+.grid-main p {
+	margin:70px;
+}
+.grid-main p:nth-child(1) {
+	flex: 55%;
+}
+.grid-main p:nth-child(2) {
+	flex: 45%;
+}
+.grid-intro span{
+	font-size: 80px; 
+	font-weight:bold;
+	font-family: 'Cormorant Garamond', Serif;
+}

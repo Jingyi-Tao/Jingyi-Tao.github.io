@@ -1,0 +1,30 @@
+.fan{
+    width: 400px;
+    margin: 100px;
+}
+
+.house{
+    width: 400px;
+    margin: 100px;
+}
+
+#fan path{
+    fill: rgba(255, 143, 143, 1);
+}
+
+.fan {
+    animation: fan-rotate 4s infinite linear;
+}
+
+@keyframes fan-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

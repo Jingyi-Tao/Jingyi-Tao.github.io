@@ -1,15 +1,53 @@
-.fan{
-    width: 400px;
-    margin: 100px;
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  
+  .grid {
+    display: flex;
+  }
+  
+  .grid div {
+    flex: 1;
+    height: 200px;
+    margin: 20px;
+  }
+  
+  .grid .one {
+    background-color: #ff8f8f;
+  }
+  
+  .grid .two {
+    background-color: rgb(141, 255, 217);
+  }
+  
+  .grid .three {
+    background-color: #b6ff8f;
+  }
+  
+  .grid .four {
+    background-color:sandybrown;
+  }
+
+.parent .big {
+    position: absolute;
+    bottom: 400px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1625px;
+    height: 300px;
 }
 
-.house{
+.fan{
     width: 400px;
     margin: 100px;
 }
 
 #fan path{
     fill: rgba(255, 143, 143, 1);
+    animation: col 3s linear infinite;
 }
 
 .fan {
@@ -27,4 +65,16 @@
         transform: rotate(360deg);
     }
 
+}
+
+@keyframes col {
+    0%,30% {
+        fill:rgba(255, 143, 143, 1)
+    }
+    60% {
+        fill:rgba(141, 255, 217, 1)
+    }
+    90% {
+        fill:rgba(182, 255, 143, 1)
+    }
 }

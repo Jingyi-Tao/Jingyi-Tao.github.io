@@ -36,6 +36,26 @@ img {
 
 .pictures div {
     flex: 25%;
+    border: 3px solid darkolivegreen;
+    background-color:honeydew;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.content .left {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid darkseagreen;
+}
+
+.content .right {
+    flex: 2;
+    border: 3px solid darkseagreen;
+    margin: 20px;
 }
 
 h1, h2, h3 {
@@ -46,16 +66,23 @@ h1 {
     font-size: 60px;
     line-height: 68px;
     margin-bottom: 20px;
+    text-align: center;
+    color: lightslategrey;
 }
 h2 {
-    font-size: 32px;
-    line-height: 36px;
-    margin-top: 16px;
-    margin-bottom: 12px;
+    font-size: 27px;
+    color: rosybrown;
+    line-height: 58px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    border: 3px solid darkseagreen;
+    text-align: center;
 }
 h3 {
-    font-size: 24px;
+    font-size: 17px;
     line-height: 28px;
-    margin-top: 16px;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }

@@ -1,23 +1,43 @@
+/*
+font-family: 'Questrial', sans-serif;
+font-size: 40px;
+font-family: 'Alegreya', serif;
+font-size: 19px;
+*/
+
 * {
     box-sizing: border-box;
   }
 
-  body {
-      background-color: #2b2b4a;
-  }
+body {
+     background-color: #2b2b4a;
+}
 
-  .sky {
-      animation: star-rotate 60s infinite linear;
-  }
+header.title{
+    position: relative
+}
 
-  @keyframes star-rotate {
+h1{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+.home {
+        animation: sky-rotate 90s infinite linear;
+    }
+    
+@keyframes sky-rotate {
     0% {
-        transform: rotate(0deg);
+            transform: rotate(0deg);
     }
     50% {
-
+    
     }
     100%{
-        transform: rotate(360deg);
+            transform: rotate(360deg);
     }
+    
 }
+

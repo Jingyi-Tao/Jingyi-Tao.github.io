@@ -1,0 +1,88 @@
+/*
+font-family: 'Questrial', sans-serif;
+font-size: 40px;
+font-family: 'Alegreya', serif;
+font-size: 19px;
+*/
+
+* {
+    box-sizing: border-box;
+  }
+
+@keyframes page-appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+  body {
+      background-image: url(img/deepback-07.png);
+      background-repeat:no-repeat;
+      background-position:center center;
+      background-attachment:fixed;
+      background-size: 1680px 840px;
+      animation-name: page-appear;
+      animation-duration: 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: 1; 
+      }
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #2a221a;
+    z-index: 10;
+    height: 90px;
+    display: flex;
+}
+
+.circle {
+    margin: 10px;
+    margin-top: 15px;
+    text-align:right;
+}
+
+.back {
+    margin: 10px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+nav a:hover {
+    border-bottom: 5px solid white;
+    border-radius: 0%;
+  }
+
+nav a.active {
+    border-bottom: 5px solid white;
+    border-radius: 0%;
+  }
+
+  main {
+    padding: 50px;
+}
+
+.constellations {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    text-align: center;
+}
+
+.constellations div {
+    flex: 50%;
+    margin-top: 60px;
+    transition: all 0.6s;
+}
+
+.constellations div:hover{
+    transform: scale(1.2);
+}
+
+.content {
+    display: flex;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      background-color: #2b2b4a;
+  }
+
+  .sky {
+      animation: star-rotate 60s infinite linear;
+  }
+
+  @keyframes star-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

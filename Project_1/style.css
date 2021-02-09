@@ -6,38 +6,43 @@ font-size: 19px;
 */
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-     background-color: #2b2b4a;
+  background-color: #2b2b4a;
 }
 
-header.title{
-    position: relative
+header.title {
+  position: relative;
 }
 
-h1{
-    font-family: 'Questrial', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 100px;
+h1 {
+  font-family: "Questrial", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 40vh;
 }
 
-.home {
-        animation: sky-rotate 90s infinite linear;
-    }
-    
+.home svg {
+  animation: sky-rotate 90s infinite linear;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
 @keyframes sky-rotate {
-    0% {
-            transform: rotate(0deg);
-    }
-    50% {
-    
-    }
-    100%{
-            transform: rotate(360deg);
-    }
-    
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-

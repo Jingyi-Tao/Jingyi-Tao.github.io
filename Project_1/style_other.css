@@ -22,6 +22,7 @@ font-size: 19px;
       background-image: url(img/deepback-07.png);
       background-repeat:no-repeat;
       background-position:center center;
+      position: absolute;
       background-attachment:fixed;
       background-size: 1680px 840px;
       animation-name: page-appear;

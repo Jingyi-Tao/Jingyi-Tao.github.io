@@ -37,6 +37,7 @@ nav {
     z-index: 10;
     height: 90px;
     display: flex;
+    margin: -10px;
 }
 
 .circle {

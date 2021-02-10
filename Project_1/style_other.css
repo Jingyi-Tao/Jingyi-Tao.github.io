@@ -18,6 +18,25 @@ font-size: 19px;
   }
 }
 
+h2, h3{
+  font-family: 'Questrial', sans-serif;
+  color: white;
+}
+
+h2{
+  font-size: 70px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  color: white;
+}
+
 body {
   background-image: url(img/deepback-07.png);
   background-repeat: no-repeat;
@@ -46,12 +65,14 @@ nav {
 }
 .circle {
   margin: 10px;
+  margin-right: 20px;
   margin-top: 15px;
   text-align: right;
 }
 
 .back {
   margin: 10px;
+  margin-left: 20px;
   margin-top: 15px;
   text-align: left;
 }
@@ -90,4 +111,30 @@ main {
 .content {
   display: flex;
   margin-bottom: 60px;
+}
+
+.main {
+  display: block;
+}
+
+.text{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left-image {
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-bottom: 150px;
+  margin-right: 0px;
+  transition: all 0.6s;
+}
+
+.left-image:hover {
+  transform: scale(1.2);
+}
+
+.texture {
+  margin: 120px;
+  margin-right: 150px;
 }

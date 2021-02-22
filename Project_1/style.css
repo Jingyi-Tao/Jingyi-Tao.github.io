@@ -23,6 +23,7 @@ h1 {
   text-align: center;
   font-size: 100px;
   margin-top: 40vh;
+  
 }
 
 .link {
@@ -38,7 +39,7 @@ h1 {
   animation: sky-rotate 90s infinite linear;
   position: absolute;
   top: -300px;
-  left: 53px;
+  left: 58px;
   right: 0;
   width: 1500px;
   z-index: -1;
@@ -54,4 +55,121 @@ h1 {
   100% {
     transform: rotate(360deg);
   }
+}
+
+@keyframes page-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2, h3{
+  font-family: 'Questrial', sans-serif;
+  color: white;
+}
+
+h2{
+  font-size: 70px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #2a221a;
+  z-index: 10;
+  height: 90px;
+  display: flex;
+  margin: -10px;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+}
+.circle {
+  margin: 10px;
+  margin-right: 20px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.back{
+  margin: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+nav a:hover {
+  border-bottom: 5px solid white;
+  border-radius: 0%;
+}
+
+nav a.active {
+  border-bottom: 5px solid white;
+  border-radius: 0%;
+}
+
+main {
+  padding: 50px;
+}
+
+.constellations {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  text-align: center;
+}
+
+.constellations div {
+  flex: 50%;
+  margin-top: 60px;
+  transition: all 0.6s;
+}
+
+.constellations div:hover {
+  transform: scale(1.2);
+}
+
+.content {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.main {
+  display: block;
+}
+
+.text{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left-image {
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-bottom: 150px;
+  margin-right: 0px;
+  transition: all 0.6s;
+}
+
+.left-image:hover {
+  transform: scale(1.2);
+}
+
+.texture {
+  margin: 120px;
+  margin-right: 150px;
 }

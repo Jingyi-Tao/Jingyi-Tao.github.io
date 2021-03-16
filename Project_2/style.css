@@ -14,67 +14,167 @@ body {
     font-weight: 400;
 }
 
+h1 {
+    font-family: "Ruda", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #184B99;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 16px;
+    padding: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 100%;
-    height: 60px;
-    z-index: 10;
+    display: none;
 }
 
-.nav {
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    margin-right: 80px;
-}
-
-.navbar .logo {
-    flex: 1 1 auto;
-    margin: 10px;
-    margin-left: 15px;
-    margin-top: 7px;
-    text-align: left;
-  }
-
-  a {
-      display: block;
-      margin-right: 60px;
-      color: #184B99;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 24px;
-      height: 60px;
-  }
-
-  a:hover {
-    background-color:rgb(255, 255, 255)
-  }
-
-  .home {
+.home {
       position: relative;
-      background-image: url(img/matterhorn-3x2.png);
-      opacity: 0.7;
+      background-image: url(img/matterhorn-3x2.jpg);
       width: 100%;
       height: 100vh;
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+}
+
+.home .white-logo img{
+    padding-top: 170px;
+    width: 100%;
+}
+
+.home .arrow {
+    padding-top: 100px;
+    text-align:center;
+    width: 100%;
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+}
+
+.about-area, .events-area, .services-area, .contact-area {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+}
+
+.about-area {
+    background-image: url(img/7c99937bef6a.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 15px 32px;
+    background-color: #184B99;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    color: #184B99;
   }
 
-  .about-area, .events-area, .services-area, .contact-area {
-      position: relative;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
-      flex-direction: row;
-      width: 100%;
-      height: 700px;
-  }
+.events-area {
+    background-color: bisque;
+}
+
+.services-area {
+    background-color: chartreuse;
+}
+
+.contact-area {
+    background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navbar {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 100%;
+        height: 60px;
+        z-index: 10;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+        margin-right: 30px;
+    }
+    
+    .navbar .logo {
+        flex: 1 1 auto;
+        margin-top: -30px;
+        margin-left: 15px;
+        text-align: left;
+      }
+    
+    a {
+          display: block;
+          margin-right: 30px;
+          color: #184B99;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 24px;
+          height: 60px;
+      }
+    
+    a:hover {
+        background-color:rgb(255, 255, 255)
+      }
+    
+    .home .white-logo img{
+        padding-top: 170px;
+        margin-left: 500px;
+        width: 40%;
+    }    
+
+    h1 {
+        font-family: "Ruda", sans-serif;
+        font-weight: 900;
+        font-size: 64px;
+        color: #184B99;
+        padding: 80px;
+    }
+    p {
+        font-size: 23px;
+    }
+    .text-about {
+        margin-top: -200px;
+        padding: 150px 150px 0px 150px;
+    }
+    .button {
+        float: right;
+        margin-right: 150px;
+    }
+}

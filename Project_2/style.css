@@ -17,10 +17,10 @@ body {
 h1 {
     font-family: "Ruda", sans-serif;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 64px;
     color: #184B99;
+    padding: 60px;
     text-align: center;
-    padding-top: 50px;
 }
 
 h2 {
@@ -30,8 +30,8 @@ h2 {
 }
 
 p {
-    font-size: 16px;
-    padding: 40px;
+    font-size: 18px;
+    margin: 90px;
 }
 
 html {
@@ -39,8 +39,61 @@ html {
 }
 
 .navbar {
-    display: none;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 60px;
+    z-index: 10;
 }
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar .logo {
+    flex: 1 1 auto;
+    margin-top: -30px;
+    margin-left: 15px;
+    text-align: left;
+  }
+
+a {
+      display: block;
+      margin-right: 30px;
+      color: #184B99;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 24px;
+      height: 60px;
+  }
+
+a:hover {
+    text-shadow: 0 0 10px white, 0 0 20px #0c2b5a;
+  }
+
+.home .white-logo img{
+    padding-top: 170px;
+    margin-left: 500px;
+    width: 70px;
+}    
+
+.text-about {
+    margin-top: -200px;
+    padding: 150px 150px 0px 150px;
+}
+.box-link {
+    float: right;
+    margin-right: 200px;
+} 
 
 .home {
       position: relative;
@@ -53,8 +106,8 @@ html {
 }
 
 .home .white-logo img{
-    padding-top: 170px;
-    width: 100%;
+    padding-top: 150px;
+    width: 40%;
 }
 
 .home .arrow {
@@ -174,7 +227,7 @@ html {
 .card .timeline-image {
     width: 90%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .left .content {
@@ -191,6 +244,13 @@ html {
 
 .left .time span {left: 18px;}
 
+.right .time span:before {
+    text-align: right;
+    left: 80px;
+}
+
+.right .time span {left: -92px;}
+
 .right .content {
     padding-left: 15px;
     left: 50%;
@@ -202,12 +262,6 @@ html {
 
 .right .time {left: 50%;}
 
-.right .time span:before {
-    text-align: right;
-    left: 80px;
-}
-
-.right .time span {left: -92px;}
 
 
 
@@ -224,73 +278,129 @@ html {
     background-color: white;
 }
 
-@media only screen and (min-width: 768px) {
-
-    .navbar {
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 100%;
-        height: 60px;
-        z-index: 10;
-    }
-    
-    .nav {
-        display: flex;
-        justify-content: right;
-        list-style: none;
-        margin-right: 30px;
-    }
-    
-    .navbar .logo {
-        flex: 1 1 auto;
-        margin-top: -30px;
-        margin-left: 15px;
-        text-align: left;
-      }
-    
-    a {
-          display: block;
-          margin-right: 30px;
-          color: #184B99;
-          text-decoration: none;
-          text-transform: uppercase;
-          font-weight: 700;
-          font-size: 24px;
-          height: 60px;
-      }
-    
-    a:hover {
-        text-shadow: 0 0 10px white, 0 0 20px #0c2b5a;
-      }
-    
-    .home .white-logo img{
-        padding-top: 170px;
-        margin-left: 500px;
-        width: 40%;
-    }    
+@media only screen and (max-width: 768px) {
 
     h1 {
         font-family: "Ruda", sans-serif;
         font-weight: 900;
-        font-size: 64px;
+        font-size: 35px;
         color: #184B99;
-        padding: 60px;
+        padding-top: 50px;
     }
     p {
-        font-size: 18px;
-        margin: 90px;
+        font-size: 16px;
+        margin: 0;
     }
     .text-about {
-        margin-top: -200px;
-        padding: 150px 150px 0px 150px;
+        padding: 150px 50px 50px 50px;
     }
+    .button {
+        padding: 1px 45px;
+        text-align: center;
+    }
+    .navbar {
+        display: none;
+    }
+        
+    .home .white-logo img{
+        padding-top: 100px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    
     .box-link {
-        float: right;
-        margin-right: 200px;
-    } 
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+
+    
+    .timeline-section::after {
+        position: absolute;
+        top:0;
+        height: 100%;
+        left: 25%;
+        border: 3px solid #184B99;
+        content:'';
+        width: 0px;
+        background-color: #184B99;
+        margin-left: 0px;
+    }
+    
+    .time {
+        position: relative;
+        width: 90px;
+        font-weight:800;
+    }
+    
+    .time span {
+        color: #184B99;
+        position: absolute;
+        top: -10px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    .time span:before {
+        position: absolute;
+        z-index: 1;
+        width: 20px;
+        height:20px;
+        border: 3px solid #184B99;
+        border-radius: 50%;
+        background-color: white;
+        content: '';
+    }
+    
+    .card {
+        display: block;
+        width: 65%;
+        padding: 20px 5px;
+        background-color: #fff;
+        border: none;
+        color: #184B99;
+        box-shadow: 0px 1px 15px rgba(24, 75, 153, 0.6);
+        margin-left: 115px;
+    }
+
+    .timeline-image {
+        display: none;
+    }
+    
+    .discription {
+        padding: auto;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        font-family: "Roboto Slab", serif;
+    }
+        
+    .left .time {left: -12%;}
+    
+    .left .time span:before{
+        text-align: right;
+        left: 65px;
+    }
+    
+    .left .time span {left: 14px;}
+    
+    .right .time span:before {
+        text-align: right;
+        left: 60px;
+    }
+    
+    .right .time span {left: -173px;}
+    
+    .right .content {
+        padding-left: 15px;
+        left: 50%;
+    }
+    
+    .right .card {
+        margin-left: 100px;
+    }
+    
+    .right .time {left: 53%;}
+    
+    
+
 }

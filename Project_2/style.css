@@ -488,4 +488,50 @@ a:hover {
     
     
 
+
+    .main-text {
+        display: none;
+    }
+    .scroll {
+        height: 600px;
+        overflow:auto;
+    }
+  
+    .scroll .event_1:first-child {
+        animation: show 0s infinite;
+    }
+    
+    .event_1, .event_2, .event_3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .events-area h2 {
+        font-size: 20px;
+    }
+    .events-area p{
+        font-size: 14px;
+    }
+    .event_1 article, .event_2 article, .event_3 article {
+        flex: 1;
+    }
+    .events-area .link {
+        padding: 0px;
+        text-align: center;
+    }
+    a {
+        height: auto;
+    }
+    .reading {
+        margin-left: auto;
+    }
+    .event-texture .subtitle {
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+
+    
 }

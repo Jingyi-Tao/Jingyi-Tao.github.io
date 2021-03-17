@@ -275,7 +275,7 @@ a:hover {
     color: white;
 }
 
-.event_1 {
+.event_1, .event_2, .event_3 {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 80%;
@@ -321,6 +321,34 @@ a:hover {
 .reading:hover {
     background-color: #184B99;
     color: white;
+  }
+
+  .scroll {
+      height: 700px;
+      overflow: hidden;
+  }
+
+  .scroll .event_1:first-child {
+      animation: show 35s infinite;
+  }
+
+  @keyframes show {
+      0% {
+          margin-top: 0px;
+      }
+      25% {
+          margin-top: -800px;;
+      }
+      50% {
+          margin-top: -1600px;
+      }
+      75% {
+          margin-top: -800px;
+      }
+      100% {
+          margin-top: 0px;
+      }
+
   }
 
 

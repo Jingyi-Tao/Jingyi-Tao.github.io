@@ -265,10 +265,67 @@ a:hover {
 
 
 
-
 .events-area {
-    background-color: bisque;
+    background-color: #184B99;
+    color: white;
 }
+
+.events-area h1 {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.event_1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.event-texture h2{
+    text-align:left;
+    font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.event-texture p {
+    margin: 0px;
+}
+
+.event-texture .subtitle {
+    padding-bottom: 90px;
+}
+
+.event-texture {
+    padding-left: 50px;
+}
+
+.events-area .link {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.reading {
+    font-size: 22px;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 15px 32px;
+    background-color: rgb(219, 219, 219);
+    text-decoration: none;
+    color: #184B99;
+}
+
+.reading:hover {
+    background-color: #184B99;
+    color: white;
+  }
+
+
+
+
 
 .services-area {
     background-color: chartreuse;

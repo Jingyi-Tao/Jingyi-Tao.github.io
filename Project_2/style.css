@@ -391,7 +391,7 @@ a:hover {
 }
 
 .grid .service_img:hover {
-    transform: scale(1.25);
+    transform: scale(1.2);
     padding-top: 200px;
     opacity: 70%;
     color: #61a0ff;

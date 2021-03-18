@@ -642,8 +642,29 @@ footer p{
     }
     
     
-    
-
-
+    .contact-left {
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+    }
+    .contact-area h1 {
+        padding-bottom: 20px;
+    }
+    .contact-area h3{
+        font-size: 15px;
+        margin-left: -50px;
+    }
+    .contact-left p{
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: -195px;
+        margin-left: 40px;
+    }
+    article:last-child {
+        display: none;
+    }
+    .feature {
+        padding-bottom: 30px;
+    }
     
 }

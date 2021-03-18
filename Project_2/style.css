@@ -354,10 +354,52 @@ a:hover {
 
 
 
-
 .services-area {
-    background-color: chartreuse;
+    background-image: url(img/CEE-Resources_Background.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.grid img{
+    width:50%;
+    padding-bottom: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    column-gap: 300px;
+    text-align: center;
+    padding-right: 300px;
+}
+
+.grid .service_img {
+    padding: 0;
+    transition: transform 1s;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: 800;
+    font-family: "Ruda", sans-serif;
+    text-transform: capitalize;
+    color: transparent;
+}
+
+.grid .service_img:hover {
+    transform: scale(1.25);
+    padding-top: 200px;
+    opacity: 70%;
+    color: #61a0ff;
+}
+
+
+
+
 
 .contact-area {
     background-color: white;

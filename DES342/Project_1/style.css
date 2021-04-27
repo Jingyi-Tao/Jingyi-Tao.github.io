@@ -1,0 +1,13 @@
+/*font-family: 'Mali', cursive;*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Mali", cursive;
+    font-weight: 500;
+}
+

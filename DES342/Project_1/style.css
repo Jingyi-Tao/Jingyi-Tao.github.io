@@ -9,5 +9,18 @@ body {
     padding: 0;
     font-family: "Mali", cursive;
     font-weight: 500;
+    background-color:#d3b175;
 }
 
+.cloud1 {
+    z-index: 100;
+}
+
+.cloud2 {
+    z-index: 100;
+}
+
+.scroll {
+    z-index: 101;
+    text-align: center;
+}

@@ -12,6 +12,8 @@ body {
     background-color:#d3b175;
 }
 
+/*-----------------------------Opening page---------------------------*/
+
 .cloud1 {
     z-index: 100;
 }
@@ -22,5 +24,13 @@ body {
 
 .scroll {
     z-index: 101;
-    text-align: center;
+    position: fixed;
+    top: 90%;
+    right: 40%;
+}
+
+.title {
+    z-index: 101;
+    position: relative;
+    top: 90%;
 }

@@ -152,3 +152,48 @@ p {
 
 
 /*-----------------------------Page 5---------------------------*/
+
+.page5_bg img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 850px;
+}
+
+.page5_bird {
+  text-align: right;
+  margin-top: -874px;
+  margin-right: 200px;
+}
+
+.page5_text {
+  width: 750px;
+  height: 350px;
+  text-align: left;
+  margin-top: -460px;
+  margin-left: 55px;
+}
+
+
+/*-----------------------------Page 6---------------------------*/
+
+.page6_bg img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 850px;
+}
+
+.page6_bird {
+  margin-top: -865px;
+  margin-left: 650px;
+  width: 50%;
+}
+
+.page6_text {
+  width: 550px;
+  height: 350px;
+  text-align: left;
+  margin-top: -350px;
+  margin-left: 75px;
+}

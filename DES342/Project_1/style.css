@@ -36,9 +36,9 @@ body {
 .title {
   z-index: 101;
   position: fixed;
-  top: -300px;
+  top: -170px;
   left: 0;
-  right: 0;
+  right: 50px;
 }
 
 .title .cls-1 {
@@ -60,4 +60,10 @@ body {
   font-family: Mali-BoldItalic, Mali;
   font-weight: 700;
   font-style: italic;
+}
+
+/*-----------------------------Page 1---------------------------*/
+
+.page1_bg {
+  width: 2000px;
 }

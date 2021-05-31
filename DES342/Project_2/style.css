@@ -5,4 +5,48 @@ font-family: 'Saira', sans-serif;*/
     box-sizing: border-box;
   }
 
-  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-size: 25pt;
+    max-height: 100vh;
+  }
+
+  .navbar {
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: white;
+      width: 120%;
+      height: 100px;
+      z-index: 1;
+  }
+
+  .nav {
+      display: flex;
+      justify-content:center;
+      list-style: none;
+      margin-top: 30px;
+  }
+
+  .logo {
+      flex: 1 1 auto;
+      margin-left: 15%;
+      margin-right: 40%;
+  }
+
+  a {
+      margin: 55px;
+      color: #E7380D;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+
+  a:hover {
+      color: #FF8E00;
+  }

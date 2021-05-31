@@ -50,3 +50,10 @@ font-family: 'Saira', sans-serif;*/
   a:hover {
       color: #FF8E00;
   }
+
+  .rolling {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+  }

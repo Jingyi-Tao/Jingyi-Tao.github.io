@@ -345,6 +345,8 @@ h3 a {
 
 
 .context{background-image: url(img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     left: 0;
     top:50%;

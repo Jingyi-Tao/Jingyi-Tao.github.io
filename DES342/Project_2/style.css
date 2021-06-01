@@ -379,7 +379,7 @@ h3 {
     font-size: 20pt;
 }
 
-.infomation {
+.infomation, .buttoms {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 90%;
@@ -408,6 +408,27 @@ h3 {
     margin-top: 20pt;
     right: 33%;
 }
+
+.buttom-1, .buttom-2 {
+    width: 400px;
+    height: 70px;
+    background-color: #FFF4E6;
+    position: relative;
+    margin: 0 auto;
+    color: #E7380D;
+}
+
+.buttom-1 p, .buttom-2 p {
+    text-align: center;   
+    font-size: 34pt;
+    font-weight: 700;
+}
+
+.buttom-1:hover, .buttom-2:hover {
+    background-color: #E7380D;
+    color: #FFF4E6;
+}
+
 
 .context{background-image: url(img/bg.jpeg);
     background-repeat: no-repeat;

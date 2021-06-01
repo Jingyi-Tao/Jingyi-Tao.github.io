@@ -307,13 +307,17 @@ h3 {
 }
 
 .part-img div {
-    width: 25px;
-    height: 25px;
+    position: absolute;
+    top: 129%;
+    left: 33%;
+    width: 18px;
+    height: 18px;
     background-color: #E7380D;
     border-radius: 50%;
 }
 
 .part-img img {
+    position: relative;
     z-index: -10;
 }
 
@@ -342,12 +346,6 @@ h3 {
     background-color: #E7380D;
     border-radius: 50%;
 }
-
-.sweet-1 {
-    margin-top: -60pt;
-    padding-right: -100pt;
-}
-
 
 .context{background-image: url(img/bg.jpeg);
     background-repeat: no-repeat;

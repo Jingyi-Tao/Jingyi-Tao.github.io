@@ -28,6 +28,32 @@ font-family: 'Saira', sans-serif;*/
     color: #E7380D;
   }
 
+  h3 {
+    font-family: "Saira", sans-serif;
+    font-weight: 700;
+    font-size: 21pt;
+  }
+
+  h4 {
+    font-family: "Rum Raisin", sans-serif;
+    font-size: 70pt;
+    color: #E7380D;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 70pt;
+}
+
+h5 {
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-size: 30pt;
+    text-align: right;
+    margin-right: 70pt;
+    margin-top: -145pt;
+    color: #E7380D;
+}
+
+
   .navbar {
       position: fixed;
       display: flex;
@@ -219,5 +245,153 @@ input[type="radio"] {
     font-family: "Rum Raisin", sans-serif;
     font-size: 70px;
     color: #E7380D;
-
 }
+
+.list-1, .list-2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cake-img {
+    border: 3px solid rgba(255, 142, 0, 0.1);
+    margin: 0 auto;
+    padding: 46px;
+}
+
+.list-1 p {
+    font-family: "Saira", sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #E7380D;
+}
+
+.list-2 p {
+    font-family: "Saira", sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #E7380D;
+}
+
+p a{
+    font-family: "Saira", sans-serif;
+    font-size: 15pt;
+    text-transform:none;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #E7380D;
+}
+
+h3 a {
+    color: black;
+    text-transform:none;
+    margin: 0px;
+}
+
+.cake-img:hover{
+    background-color: rgba(255, 142, 0, 0.1);
+    border: none;
+}
+
+.big-img {
+    text-align: center;
+}
+
+.part-img div {
+    width: 25px;
+    height: 25px;
+    background-color: #E7380D;
+    border-radius: 50%;
+}
+
+.part-img img {
+    z-index: -10;
+}
+
+.sections p {
+    font-family: "Saira", sans-serif;
+    font-weight: 400;
+    line-height: 60pt;
+    font-size: 20pt;
+}
+
+.infomation {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.sections {
+    margin: 100px;
+}
+
+.sections div {
+    width: 30px;
+    height: 30px;
+    background-color: #E7380D;
+    border-radius: 50%;
+}
+
+.sweet-1 {
+    margin-top: -60pt;
+    padding-right: -100pt;
+}
+
+
+.context{background-image: url(img/bg.jpeg);
+    position: absolute;
+    left: 0;
+    top:50%;
+    width: 100%;
+    height: 400px;
+    margin-top: -200px;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 600px;
+    height: 400px;
+    padding: 80px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+form{padding: 20px 0;}
+
+form input{border: 1px solid #FFF;
+    width: 220px;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+form button{
+    background: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #E7380D;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 16px;
+}
+
+form button:hover{
+    background: #E7380D;
+    color: white;
+}
+

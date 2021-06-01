@@ -304,7 +304,7 @@ h3 {
     text-align: center;
 }
 
-.part-img div {
+.circle-1, .circle-2, .circle-3, .circle-4 {
     position: absolute;
     width: 18px;
     height: 18px;
@@ -318,9 +318,33 @@ h3 {
     width: 100%;
 }
 
+.part-img p {
+    font-family: "Saira", sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    color: #E7380D;
+    width: 200px;
+    position: absolute;
+    display: none;
+}
+
+.circle-1:hover .m1, .circle-2:hover .m2, .circle-3:hover .m3, .circle-4:hover .m4 {
+    display: block;
+}
+
+.m1 {
+    top: -24px;
+    left: 20px;
+}
+
 .circle-1 {
     top: 129%;
     left: 34%;
+}
+
+.m2 {
+    top: -26px;
+    left: -172px;
 }
 
 .circle-2 {
@@ -328,9 +352,19 @@ h3 {
     left: 20%;
 }
 
+.m3 {
+    top: -25px;
+    left: 20px;
+}
+
 .circle-3 {
     top: 157%;
     left: 33%;
+}
+
+.m4 {
+    top: -25px;
+    left: -190px;
 }
 
 .circle-4 {

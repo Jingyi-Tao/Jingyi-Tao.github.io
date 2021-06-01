@@ -424,6 +424,11 @@ h3 {
     font-weight: 700;
 }
 
+a.buttom-blocks {
+    margin: 0;
+    text-transform: none;
+}
+
 .buttom-1:hover, .buttom-2:hover {
     background-color: #E7380D;
     color: #FFF4E6;

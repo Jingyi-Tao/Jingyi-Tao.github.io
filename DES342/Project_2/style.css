@@ -234,10 +234,8 @@ input[type="radio"] {
 .title-img p {
     margin: 0;
     padding: 0;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 380px;
+    position:absolute;
+    top: 46%;
     left: 50px;
     display: flex;
     justify-content: left;

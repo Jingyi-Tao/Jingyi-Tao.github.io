@@ -319,6 +319,7 @@ h3 {
 .part-img img {
     position: relative;
     z-index: -10;
+    width: 100%;
 }
 
 .sections p {
@@ -340,11 +341,22 @@ h3 {
     margin: 100px;
 }
 
-.sections div {
+.sections span {
     width: 30px;
     height: 30px;
-    background-color: #E7380D;
+    background-color: #FF8E00;
     border-radius: 50%;
+    position: absolute;
+}
+
+.sweet-1 {
+    margin-top: 20pt;
+    right: 36%;
+}
+
+.sweet-2 {
+    margin-top: 20pt;
+    right: 33%;
 }
 
 .context{background-image: url(img/bg.jpeg);
